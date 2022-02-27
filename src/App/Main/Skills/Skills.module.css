@@ -1,0 +1,17 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.ability{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 360px){
+    .ability{
+        flex-direction: column;
+    }
+}

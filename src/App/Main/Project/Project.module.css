@@ -1,0 +1,17 @@
+.project{
+display: flex;
+    justify-content: center;
+}
+
+.containerProject{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 360px){
+    .containerProject{
+        /*display: flex;*/
+        flex-direction: column;
+        align-items: center;
+    }
+}

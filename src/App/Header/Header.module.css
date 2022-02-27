@@ -1,0 +1,25 @@
+.header {
+    height: 80px;
+    background-color: #d2c054;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*.position{*/
+/*    width: 1620px;*/
+/*    position: fixed;*/
+/*margin: 0 auto;*/
+/*}*/
+
+@media (max-width: 360px) {
+    .nav {
+        width: 70%;
+    }
+}
